@@ -1,0 +1,138 @@
+<Publish>
+    <!--Id must be set in order to update existed mod. it is not required for
+    publishing mod for the first time-->
+    <ModId Value="" />
+
+    <!--Name
+    of the mod to display to players-->
+    <DisplayName Value="Traffic Manager" />
+
+    <!--Short
+    description of the mod-->
+    <ShortDescription Value="" />
+
+    <!--Long
+    description of the mod. Single line or multi line. Supports minimal markdown subset-->
+    <!--LongDescription
+    Value="This is a long description" /-->
+    <LongDescription>
+
+# Road Rule
+
+哔哩哔哩:
+[https://space.bilibili.com/3546726445091690](https://space.bilibili.com/3546726445091690)
+YouTube: [https://www.youtube.com/@StarsSail](https://www.youtube.com/@StarsSail)
+
+QQ: 760057820
+
+## Feature
+
+Customize the traffic lights at any intersection to look and work exactly the way you want.
+
+* Traffic Light Group: Combine multiple small intersections into one large intersection, allowing you to create complex intersection layouts.
+
+* Template System: Change all phases using the same template across all saves at once, and customize which template is used when creating new phases.
+
+* Clipboard System: Copy the signal configuration of any lane connection (Edge or SubLane) to the clipboard and paste it to other lane connections, allowing you to quickly edit multiple intersections.
+
+* Custom Name: Customize the names of intersections and phases, and optionally keep intersection names always visible on the world map.
+
+* Display Current Phase: Always show the current phase, allowing you to know the current state of an intersection at any time.
+
+In addition to these features, this mod includes many other thoughtful designs:
+
+* When viewing an intersection, you can click another intersection to immediately switch the viewing target.
+
+* Only the most useful features are included, without a complicated UI interface.
+
+Restrict vehicles based on vehicle type.
+You can prevent specific vehicles from using certain sides ( MasterLane ) or lanes (
+SlaveLane ).
+
+Controls vehicle boarding behavior
+
+- Link a waypoint to the next waypoint. Continuously linked waypoints form a waypoint group. A waypoint group is treated as a single large waypoint, and the vehicle will select only one waypoint within the group for boarding.
+
+## Support
+
+If you find this mod helpful, please consider giving it a star !
+
+## Contribution
+
+Contributions are welcome.
+
+If you would like to help translate and improve this project, you can contribute through
+Crowdin. You can help translate new languages, review existing translations, or improve
+translations to make the project more accessible to users around the world.
+
+Code contributions are also welcome on GitHub.
+
+## Comments
+
+It is recommended to report issues on Github first, followed by the Paradox Forum.
+
+Github &gt; Paradox Forum &gt; Other
+
+Wherever you report an issue, please make sure to describe it clearly.
+
+* When reporting a bug, please provide as much detailed text description / game save files /
+screenshots / logs, or any other relevant information that can help identify the issue.
+
+* When requesting a feature, please provide as much detailed text description / images, or
+anything else that can help clarify your request.
+
+## Credits
+
+* **Contributors to slyh/Cities2-TrafficLightsEnhancement**: 
+    * **slyh**: Did most of the work.
+    * **Other contributors to slyh/Cities2-TrafficLightsEnhancement**: See [slyh/Cities2-TrafficLightsEnhancement](https://github.com/slyh/Cities2-TrafficLightsEnhancement) for the full list of contributors.
+
+* **krzychu124**: Provided guidance.
+
+* **River-Mochi**: Referenced [River-Mochi/CS2-AllSpeedLimits](https://github.com/River-Mochi/CS2-AllSpeedLimits)'s method for converting Game lane speed units to km/h.
+
+* **translators**:
+    * **lion mitchell** (acelion19): Korean
+
+    </LongDescription>
+
+    <!--Thumbnail-->
+    <Thumbnail Value="Properties/StableThumbnail.png" />
+
+    <!--Screenshot,
+    can be set multiple times-->
+    <Screenshot Value="Properties/Screenshots/Screenshot1.jpg" />
+
+    <!--Tag,
+    can be set multiple times-->
+    <Tag Value="" />
+
+    <!--Link
+    to the forum post where the mod can be discussed-->
+    <ForumLink Value="" />
+
+    <!--Version
+    of the mod-->
+    <ModVersion Value="" />
+
+    <!--Recommended
+    version of the base game to use the mod-->
+    <GameVersion Value="1.*" />
+
+    <!--Dependency
+    for the mod, can be set multiple times-->
+    <Dependency Id="75426" DisplayName="I18n EveryWhere" />
+
+    <!--Change
+    log for new version. Single line or multi line. Supports minimal markdown subset-->
+    <ChangeLog>
+    </ChangeLog>
+
+    <!--External
+    link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
+    <ExternalLink Type="discord" Url="https://discord.gg/jhwjtNHukX" />
+    <ExternalLink Type="github" Url="https://github.com/wysha-object/TrafficManager" />
+    <ExternalLink Type="youtube" Url="https://www.youtube.com/@StarsSail" />
+    <ExternalLink Type="paypal" Url="https://paypal.me/SSObject" />
+    <ExternalLink Type="crowdin" Url="https://crowdin.com/project/trafficmanager" />
+</Publish>

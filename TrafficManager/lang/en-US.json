@@ -1,0 +1,7 @@
+{
+  "Options.OPTION[TrafficManager.TrafficManager.Mod.Settings.ReleaseChannel]": "Release Channel",
+  "Options.OPTION[TrafficManager.TrafficManager.Mod.Settings.Version]": "Version",
+  "Options.OPTION_DESCRIPTION[TrafficManager.TrafficManager.Mod.Settings.ReleaseChannel]": "The release channel to use for updates.",
+  "Options.OPTION_DESCRIPTION[TrafficManager.TrafficManager.Mod.Settings.Version]": "The current version of the mod.",
+  "Options.SECTION[TrafficManager.TrafficManager.Mod]": "Traffic Manager"
+}
